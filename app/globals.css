@@ -17,6 +17,7 @@
 }
 
 body {
+  height: 100vh;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +25,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  margin: 0px;
+}
+
+.App {
+  height:100vh;
+  background-color:#fff;
+ 
+}
+.l7-layer-popup__row{
+  color: #000;
 }

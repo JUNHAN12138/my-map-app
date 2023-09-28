@@ -31,6 +31,9 @@ body {
 .App {
   height:100vh;
   background-color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  
 }
 .l7-layer-popup__row{

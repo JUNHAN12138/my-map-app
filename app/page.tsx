@@ -12,14 +12,14 @@ const HomePage = () => {
   return (
     <ConfigProvider theme={theme}>
       <div className="App">
-        <Button
+        <div
           onClick={() => {
             router.push("/map");
           }}
-          type="primary"
+          className="bg-gray-0 group block space-y-2 rounded-md border border-gray-200 p-6 pt-5 shadow-md shadow-black/5 transition-shadow duration-300 hover:shadow-lg w-64 "
         >
-          Button
-        </Button>
+          地图
+        </div>
       </div>
     </ConfigProvider>
   );
